@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Roman Skliarov - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">RS</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-elements">
+            <div class="floating-element el1"></div>
+            <div class="floating-element el2"></div>
+            <div class="floating-element el3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="text-content">
+                    <h2 class="subtitle">Swimmer, GymRat</h2>
+                    <h1 class="main-title">Skliarov Roman</h1>
+                    <h3 class="description">Student at RPhMSh</h3>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#skills" class="btn btn-secondary">My Skills</a>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <div class="image-wrapper">
+                        <img class="profile-photo" src="rom.jpg" alt="Roman Skliarov">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="text-content">
+                    <p class="about-text">
+                        Hello! I'm Roman, a 14-year-old student with a passion for sports, music, and technology. 
+                        I've been swimming competitively for several years and regularly train at the gym to stay fit.
+                    </p>
+                    <p class="about-text">
+                        I've been playing guitar for about 4 years and enjoy learning new compositions. 
+                        When I'm not swimming or playing music, I'm coding and exploring new technologies.
+                    </p>
+                    <div class="hobbies">
+                        <div class="hobby">
+                            <i class="fas fa-swimming-pool"></i>
+                            <span>Swimming</span>
+                        </div>
+                        <div class="hobby">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Gym</span>
+                        </div>
+                        <div class="hobby">
+                            <i class="fas fa-guitar"></i>
+                            <span>Guitar</span>
+                        </div>
+                        <div class="hobby">
+                            <i class="fas fa-code"></i>
+                            <span>Coding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img class="about-photo" src="srt.jpg" alt="Roman swimming">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-level level-80"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>C++</span>
+                        <div class="skill-bar">
+                            <div class="skill-level level-60"></div>
+                        </div>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level level-40"></div>
+                        </div>
+                        <span>40%</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Personal Skills</h3>
+                    <div class="skill-item">
+                        <span>Mathematics</span>
+                        <div class="skill-bar">
+                            <div class="skill-level level-90"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>Languages (Russian/English)</span>
+                        <div class="skill-bar">
+                            <div class="skill-level level-85"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>Guitar</span>
+                        <div class="skill-bar">
+                            <div class="skill-level level-80"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-visual">
+                <div class="visual-item">
+                    <i class="fas fa-gamepad"></i>
+                    <h4>Video Games</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="visual-item">
+                    <i class="fas fa-guitar"></i>
+                    <h4>Guitar</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="visual-item">
+                    <i class="fas fa-code"></i>
+                    <h4>Coding</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">My Blog</h2>
+            <div class="blog-content">
+                <div class="blog-text">
+                    <p>I occasionally write about my experiences in programming, sports, and school life.</p>
+                    <p>Check out my latest article on Medium about informatics and problem-solving:</p>
+                    <a href="https://medium.com/@romskliarov/%D0%B1%D3%99%D1%80%D1%96%D2%A3%D0%B5-%D1%81%D3%99%D0%BB%D0%B5%D0%BC-%D0%B1%D2%AF%D0%B3%D1%96%D0%BD-%D0%B1%D1%96%D0%B7-informatics%D1%82%D0%B5%D0%BD-%D0%B5%D1%81%D0%B5%D0%BF-%D1%88%D1%8B%D2%93%D0%B0%D1%80%D0%B0%D0%BC%D1%8B%D0%B7-aad55fa47128" 
+                       target="_blank" class="btn btn-blog">
+                        Read on Medium <i class="fab fa-medium"></i>
+                    </a>
+                </div>
+                <div class="blog-image">
+                    <a href="https://medium.com/@romskliarov/%D0%B1%D3%99%D1%80%D1%96%D2%A3%D0%B5-%D1%81%D3%99%D0%BB%D0%B5%D0%BC-%D0%B1%D2%AF%D0%B3%D1%96%D0%BD-%D0%B1%D1%96%D0%B7-informatics%D1%82%D0%B5%D0%BD-%D0%B5%D1%81%D0%B5%D0%BF-%D1%88%D1%8B%D2%93%D0%B0%D1%80%D0%B0%D0%BC%D1%8B%D0%B7-aad55fa47128" 
+                       target="_blank">
+                        <img class="blog-photo" src="tg.jpg" alt="Blog thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="nameError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="emailError"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <div class="error-message" id="messageError"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Feel free to reach out for collaborations, questions, or just to say hello!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Romandgoo site. All rights reserved.</p>
+            <p>Made with <i class="fas fa-heart"></i> by Roman Skliarov</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I'll get back to you soon!</p>
+        </div>
+    </div>
+
+    <!-- ПОДКЛЮЧАЕМ ВСЕ СКРИПТЫ -->
+    <script>
+        // ВСТРОЕННЫЙ СКРИПТ ДЛЯ БЫСТРОЙ ПРОВЕРКИ
+        console.log("Сайт загружается...");
+        
+        // Быстрая функция переключения темы
+        function toggleTheme() {
+            console.log("Переключаем тему!");
+            document.body.classList.toggle('light-theme');
+            
+            const icon = document.querySelector('#themeToggle i');
+            if (icon) {
+                if (document.body.classList.contains('light-theme')) {
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
+                    localStorage.setItem('theme', 'light');
+                    console.log("Светлая тема включена");
+                } else {
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
+                    localStorage.setItem('theme', 'dark');
+                    console.log("Тёмная тема включена");
+                }
+            }
+        }
+        
+        // Вешаем обработчик на кнопку
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("DOM загружен!");
+            
+            const themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', toggleTheme);
+                console.log("Обработчик добавлен на кнопку");
+            } else {
+                console.error("Кнопка не найдена!");
+            }
+            
+            // Восстанавливаем сохранённую тему
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.body.classList.add('light-theme');
+                const icon = document.querySelector('#themeToggle i');
+                if (icon) {
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
+                }
+            }
+            
+            // Текущий год в футере
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        });
+    </script>
+    
+    <!-- Основной скрипт -->
+    <script src="script.js"></script>
+</body>
+</html>
